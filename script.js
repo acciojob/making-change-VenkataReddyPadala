@@ -19,7 +19,7 @@ const makeChange = (n) => {
     }
     sum+=p*money[3];
     
-    return {q,d,ni,p};
+    return {q,d,n:ni,p};
 };
 
 // Do not the change the code below
